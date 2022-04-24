@@ -25,10 +25,9 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 0 10px;
-  background: #0CECDD;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to bottom, #11998e, #38ef7d);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to bottom, #11998e, #38ef7d); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #12c2e9;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to top, #f64f59, #c471ed, #12c2e9);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to top, #f64f59, #c471ed, #12c2e9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */  
 }
 
 div,
@@ -169,6 +168,11 @@ a {
 .skills_table {
   display: flex;
   justify-content: space-around;
+}
+
+.profile-picture {
+  height: 140px;
+  border: 1px solid;
 }
 
 @media (min-width: 426px) {
